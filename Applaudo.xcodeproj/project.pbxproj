@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36904A48920A2A5514F79F1E /* Pods_ApplaudoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23FB52380104AA8F7D34D3F /* Pods_ApplaudoUITests.framework */; };
 		6A4DF14B1F562A7300D814C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4DF14A1F562A7300D814C2 /* AppDelegate.swift */; };
 		6A4DF14D1F562A7300D814C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4DF14C1F562A7300D814C2 /* ViewController.swift */; };
 		6A4DF1501F562A7300D814C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4DF14E1F562A7300D814C2 /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		6A4DF1551F562A7300D814C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4DF1531F562A7300D814C2 /* LaunchScreen.storyboard */; };
 		6A4DF1601F562A7300D814C2 /* ApplaudoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4DF15F1F562A7300D814C2 /* ApplaudoTests.swift */; };
 		6A4DF16B1F562A7300D814C2 /* ApplaudoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4DF16A1F562A7300D814C2 /* ApplaudoUITests.swift */; };
+		6A4DF1791F5648A300D814C2 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4DF1781F5648A300D814C2 /* Utilities.swift */; };
+		6A4DF17B1F57282400D814C2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4DF17A1F57282400D814C2 /* SearchViewController.swift */; };
+		6A4DF17D1F57423C00D814C2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4DF17C1F57423C00D814C2 /* DetailViewController.swift */; };
+		7EF47C8860EE1B55D52CDF04 /* Pods_Applaudo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75BB416C3385EC89EB177916 /* Pods_Applaudo.framework */; };
+		EC5A0B62F6105401A92C5764 /* Pods_ApplaudoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD66BCD18CDEB67CFA3B475B /* Pods_ApplaudoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B8B4FDD733577DF265915B7 /* Pods-ApplaudoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplaudoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApplaudoTests/Pods-ApplaudoTests.release.xcconfig"; sourceTree = "<group>"; };
+		1EB7F522EE79F53533EF91BE /* Pods-Applaudo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Applaudo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Applaudo/Pods-Applaudo.debug.xcconfig"; sourceTree = "<group>"; };
+		3B4F2B3D212ACBF85D245FEA /* Pods-ApplaudoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplaudoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApplaudoUITests/Pods-ApplaudoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6A4DF1471F562A7300D814C2 /* Applaudo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Applaudo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4DF14A1F562A7300D814C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A4DF14C1F562A7300D814C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,15 @@
 		6A4DF1661F562A7300D814C2 /* ApplaudoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplaudoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4DF16A1F562A7300D814C2 /* ApplaudoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplaudoUITests.swift; sourceTree = "<group>"; };
 		6A4DF16C1F562A7300D814C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A4DF1781F5648A300D814C2 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		6A4DF17A1F57282400D814C2 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		6A4DF17C1F57423C00D814C2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		75BB416C3385EC89EB177916 /* Pods_Applaudo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Applaudo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C2A932126CBD18AD7E571EB /* Pods-Applaudo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Applaudo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Applaudo/Pods-Applaudo.release.xcconfig"; sourceTree = "<group>"; };
+		9808CFA2E1B64BC41B4E9C31 /* Pods-ApplaudoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplaudoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApplaudoUITests/Pods-ApplaudoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD66BCD18CDEB67CFA3B475B /* Pods_ApplaudoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApplaudoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC3018D0DB002D2898263B4 /* Pods-ApplaudoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplaudoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApplaudoTests/Pods-ApplaudoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E23FB52380104AA8F7D34D3F /* Pods_ApplaudoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApplaudoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EF47C8860EE1B55D52CDF04 /* Pods_Applaudo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5A0B62F6105401A92C5764 /* Pods_ApplaudoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36904A48920A2A5514F79F1E /* Pods_ApplaudoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AC6DA7C205906C4D5B357CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75BB416C3385EC89EB177916 /* Pods_Applaudo.framework */,
+				AD66BCD18CDEB67CFA3B475B /* Pods_ApplaudoTests.framework */,
+				E23FB52380104AA8F7D34D3F /* Pods_ApplaudoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6A4DF13E1F562A7200D814C2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +112,8 @@
 				6A4DF15E1F562A7300D814C2 /* ApplaudoTests */,
 				6A4DF1691F562A7300D814C2 /* ApplaudoUITests */,
 				6A4DF1481F562A7300D814C2 /* Products */,
+				DB85937D69E3999C11DF8438 /* Pods */,
+				1AC6DA7C205906C4D5B357CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +132,13 @@
 			children = (
 				6A4DF14A1F562A7300D814C2 /* AppDelegate.swift */,
 				6A4DF14C1F562A7300D814C2 /* ViewController.swift */,
+				6A4DF17A1F57282400D814C2 /* SearchViewController.swift */,
+				6A4DF17C1F57423C00D814C2 /* DetailViewController.swift */,
 				6A4DF14E1F562A7300D814C2 /* Main.storyboard */,
 				6A4DF1511F562A7300D814C2 /* Assets.xcassets */,
 				6A4DF1531F562A7300D814C2 /* LaunchScreen.storyboard */,
 				6A4DF1561F562A7300D814C2 /* Info.plist */,
+				6A4DF1781F5648A300D814C2 /* Utilities.swift */,
 			);
 			path = Applaudo;
 			sourceTree = "<group>";
@@ -125,6 +161,19 @@
 			path = ApplaudoUITests;
 			sourceTree = "<group>";
 		};
+		DB85937D69E3999C11DF8438 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EB7F522EE79F53533EF91BE /* Pods-Applaudo.debug.xcconfig */,
+				7C2A932126CBD18AD7E571EB /* Pods-Applaudo.release.xcconfig */,
+				BFC3018D0DB002D2898263B4 /* Pods-ApplaudoTests.debug.xcconfig */,
+				0B8B4FDD733577DF265915B7 /* Pods-ApplaudoTests.release.xcconfig */,
+				9808CFA2E1B64BC41B4E9C31 /* Pods-ApplaudoUITests.debug.xcconfig */,
+				3B4F2B3D212ACBF85D245FEA /* Pods-ApplaudoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A4DF16F1F562A7300D814C2 /* Build configuration list for PBXNativeTarget "Applaudo" */;
 			buildPhases = (
+				E255810CC03DB99249F2D28A /* [CP] Check Pods Manifest.lock */,
 				6A4DF1431F562A7300D814C2 /* Sources */,
 				6A4DF1441F562A7300D814C2 /* Frameworks */,
 				6A4DF1451F562A7300D814C2 /* Resources */,
+				69C13804EA1DFFEC116BF69B /* [CP] Embed Pods Frameworks */,
+				E1F78E97D64405F3C3DD7D5E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A4DF1721F562A7300D814C2 /* Build configuration list for PBXNativeTarget "ApplaudoTests" */;
 			buildPhases = (
+				BA42351F8D96F301048E3BAC /* [CP] Check Pods Manifest.lock */,
 				6A4DF1571F562A7300D814C2 /* Sources */,
 				6A4DF1581F562A7300D814C2 /* Frameworks */,
 				6A4DF1591F562A7300D814C2 /* Resources */,
+				1539542F39130FBB7F75B1D6 /* [CP] Embed Pods Frameworks */,
+				1C1A5A3F9D0C332C1C83E8B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A4DF1751F562A7300D814C2 /* Build configuration list for PBXNativeTarget "ApplaudoUITests" */;
 			buildPhases = (
+				C1568336FC38C16D43090F00 /* [CP] Check Pods Manifest.lock */,
 				6A4DF1621F562A7300D814C2 /* Sources */,
 				6A4DF1631F562A7300D814C2 /* Frameworks */,
 				6A4DF1641F562A7300D814C2 /* Resources */,
+				EEEF7BD64BE5479943410645 /* [CP] Embed Pods Frameworks */,
+				EE3F779C0783146F588092DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +251,7 @@
 				TargetAttributes = {
 					6A4DF1461F562A7300D814C2 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = SCL98AP6MS;
 						ProvisioningStyle = Automatic;
 					};
 					6A4DF15A1F562A7300D814C2 = {
@@ -254,12 +313,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1539542F39130FBB7F75B1D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApplaudoTests/Pods-ApplaudoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C1A5A3F9D0C332C1C83E8B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApplaudoTests/Pods-ApplaudoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69C13804EA1DFFEC116BF69B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Applaudo/Pods-Applaudo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA42351F8D96F301048E3BAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1568336FC38C16D43090F00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1F78E97D64405F3C3DD7D5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Applaudo/Pods-Applaudo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E255810CC03DB99249F2D28A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE3F779C0783146F588092DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApplaudoUITests/Pods-ApplaudoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEEF7BD64BE5479943410645 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApplaudoUITests/Pods-ApplaudoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A4DF1431F562A7300D814C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A4DF1791F5648A300D814C2 /* Utilities.swift in Sources */,
 				6A4DF14D1F562A7300D814C2 /* ViewController.swift in Sources */,
+				6A4DF17D1F57423C00D814C2 /* DetailViewController.swift in Sources */,
+				6A4DF17B1F57282400D814C2 /* SearchViewController.swift in Sources */,
 				6A4DF14B1F562A7300D814C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,9 +612,12 @@
 		};
 		6A4DF1701F562A7300D814C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EB7F522EE79F53533EF91BE /* Pods-Applaudo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SCL98AP6MS;
 				INFOPLIST_FILE = Applaudo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.aldo.Applaudo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,9 +627,12 @@
 		};
 		6A4DF1711F562A7300D814C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C2A932126CBD18AD7E571EB /* Pods-Applaudo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SCL98AP6MS;
 				INFOPLIST_FILE = Applaudo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.aldo.Applaudo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +642,7 @@
 		};
 		6A4DF1731F562A7300D814C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFC3018D0DB002D2898263B4 /* Pods-ApplaudoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +657,7 @@
 		};
 		6A4DF1741F562A7300D814C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8B4FDD733577DF265915B7 /* Pods-ApplaudoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +672,7 @@
 		};
 		6A4DF1761F562A7300D814C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9808CFA2E1B64BC41B4E9C31 /* Pods-ApplaudoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ApplaudoUITests/Info.plist;
@@ -477,6 +686,7 @@
 		};
 		6A4DF1771F562A7300D814C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4F2B3D212ACBF85D245FEA /* Pods-ApplaudoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ApplaudoUITests/Info.plist;
@@ -507,6 +717,7 @@
 				6A4DF1711F562A7300D814C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A4DF1721F562A7300D814C2 /* Build configuration list for PBXNativeTarget "ApplaudoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +726,7 @@
 				6A4DF1741F562A7300D814C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A4DF1751F562A7300D814C2 /* Build configuration list for PBXNativeTarget "ApplaudoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +735,7 @@
 				6A4DF1771F562A7300D814C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
