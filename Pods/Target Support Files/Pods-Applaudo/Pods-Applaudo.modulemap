@@ -1,0 +1,6 @@
+framework module Pods_Applaudo {
+  umbrella header "Pods-Applaudo-umbrella.h"
+
+  export *
+  module * { export * }
+}

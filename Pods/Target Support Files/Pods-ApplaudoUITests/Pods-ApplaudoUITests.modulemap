@@ -1,0 +1,6 @@
+framework module Pods_ApplaudoUITests {
+  umbrella header "Pods-ApplaudoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
