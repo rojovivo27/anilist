@@ -251,7 +251,6 @@
 				TargetAttributes = {
 					6A4DF1461F562A7300D814C2 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = SCL98AP6MS;
 						ProvisioningStyle = Automatic;
 					};
 					6A4DF15A1F562A7300D814C2 = {
@@ -615,9 +614,9 @@
 			baseConfigurationReference = 1EB7F522EE79F53533EF91BE /* Pods-Applaudo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SCL98AP6MS;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Applaudo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.aldo.Applaudo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -630,9 +629,9 @@
 			baseConfigurationReference = 7C2A932126CBD18AD7E571EB /* Pods-Applaudo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SCL98AP6MS;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Applaudo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.aldo.Applaudo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
